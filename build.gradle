@@ -1,0 +1,56 @@
+allprojects {
+    group 'com.metell_a.orders_manager'
+    version '1.1'
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+
+    ext {
+        guavaVersion = '18.0'
+        slf4jVersion = '1.7.12'
+        log4jVersion = '2.5'
+        junitVersion = '4.12'
+        lombokVersion = '1.16.10'
+        apacheCommonsVersion = '3.4'
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:' + lombokVersion
+        compile 'com.google.guava:guava:' + guavaVersion
+        testCompile 'junit:junit:' + junitVersion
+        compile 'org.apache.logging.log4j:log4j-slf4j-impl:' + log4jVersion
+        compile 'org.apache.logging.log4j:log4j-api:' + log4jVersion
+        compile 'org.apache.logging.log4j:log4j-core:' + log4jVersion
+        compile 'org.apache.commons:commons-lang3:' + apacheCommonsVersion
+    }
+}
+
+apply plugin: 'javafx-gradle-plugin'
+
+buildscript {
+    dependencies {
+        classpath group: 'de.dynamicfiles.projects.gradle.plugins', name: 'javafx-gradle-plugin', version: '8.7.0'
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    }
+}
+
+dependencies {
+    compile project(':ordersmanager-viewer')
+}
+
+jfx {
+    verbose = true
+    deployDir = 'src/main/deploy'
+    mainClass = 'com.metell_a.orders_manager.MainClass'
+    vendor = 'konbios'
+    appName = 'Ordersmanager'
+}

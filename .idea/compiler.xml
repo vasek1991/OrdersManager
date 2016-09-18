@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ordersmanager-_main" target="1.8" />
+      <module name="ordersmanager-_test" target="1.8" />
+      <module name="ordersmanager-controller_main" target="1.8" />
+      <module name="ordersmanager-controller_test" target="1.8" />
+      <module name="ordersmanager-model_main" target="1.8" />
+      <module name="ordersmanager-model_test" target="1.8" />
+      <module name="ordersmanager-service_main" target="1.8" />
+      <module name="ordersmanager-service_test" target="1.8" />
+      <module name="ordersmanager-style_main" target="1.8" />
+      <module name="ordersmanager-style_test" target="1.8" />
+      <module name="ordersmanager-viever_main" target="1.8" />
+      <module name="ordersmanager-viever_test" target="1.8" />
+      <module name="ordersmanager-viewer_main" target="1.8" />
+      <module name="ordersmanager-viewer_test" target="1.8" />
+      <module name="ordersmanager_main" target="1.8" />
+      <module name="ordersmanager_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

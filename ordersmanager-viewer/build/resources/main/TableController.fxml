@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.40"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.metell_a.orders_manager.controller.TableController">
+    <TableView fx:id="customerTable" editable="true" layoutX="14.0" layoutY="14.0" prefHeight="573.0" prefWidth="373.0">
+        <columns>
+            <TableColumn fx:id="firstNameColumn" prefWidth="104.0" text="First Name"/>
+            <TableColumn fx:id="lastNameColumn" prefWidth="121.0" text="Last Name"/>
+            <TableColumn fx:id="phoneNumberColumn" prefWidth="147.0" text="Phone Number"/>
+        </columns>
+    </TableView>
+</AnchorPane>

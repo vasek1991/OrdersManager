@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-_main.iml" group="ordersmanager-" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-_test.iml" group="ordersmanager-" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller.iml" group="ordersmanager-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller_main.iml" group="ordersmanager-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-controller/ordersmanager-controller_test.iml" group="ordersmanager-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model.iml" group="ordersmanager-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model_main.iml" group="ordersmanager-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-model/ordersmanager-model_test.iml" group="ordersmanager-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service.iml" group="ordersmanager-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service_main.iml" group="ordersmanager-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-service/ordersmanager-service_test.iml" group="ordersmanager-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style.iml" group="ordersmanager-style" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style_main.iml" group="ordersmanager-style" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-style/ordersmanager-style_test.iml" group="ordersmanager-style" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer.iml" group="ordersmanager-viewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer_main.iml" group="ordersmanager-viewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager-viewer/ordersmanager-viewer_test.iml" group="ordersmanager-viewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager_main.iml" group="ordersmanager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordersmanager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordersmanager_test.iml" group="ordersmanager" />
+    </modules>
+  </component>
+</project>
