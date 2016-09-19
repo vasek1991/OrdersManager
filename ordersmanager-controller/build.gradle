@@ -1,3 +1,4 @@
 dependencies {
     compile project(':ordersmanager-model')
+    compile project(':ordersmanager-service')
 }

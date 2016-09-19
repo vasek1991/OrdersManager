@@ -27,6 +27,8 @@ allprojects {
         compile 'org.apache.logging.log4j:log4j-api:' + log4jVersion
         compile 'org.apache.logging.log4j:log4j-core:' + log4jVersion
         compile 'org.apache.commons:commons-lang3:' + apacheCommonsVersion
+        compile 'io.reactivex:rxjava:1.2.0'
+        compile group: 'javax.mail', name: 'javax.mail-api', version: '1.5.6'
     }
 }
 
